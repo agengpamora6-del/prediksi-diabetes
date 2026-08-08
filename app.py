@@ -1,4 +1,5 @@
-import streamlit as stfrom tensorflow.keras.models import load_model
+import streamlit as st
+from tensorflow.keras.models import load_model
 
 model = load_model('diabetes_model.h5')
 import numpy as np
