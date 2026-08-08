@@ -18,7 +18,7 @@ model, scaler = load_resources()
 # Tampilan UI Streamlit
 st.set_page_config(page_title="Sistem Prediksi Diabetes ", layout="centered")
 st.title(" Sistem Prediksi Diabetes")
-st.write("Masukkan parameter klinis pasien untuk memprediksi risiko diabetes berbasis Artificial Neural Network.")
+st.write("Masukkan parameter klinis pasien untuk memprediksi risiko diabetes pada diri anda.")
 st.divider()
 
 # Input Parameter Klinis Pasien
